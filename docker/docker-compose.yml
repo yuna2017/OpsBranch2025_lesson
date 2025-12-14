@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # Web 应用服务
   web:
-    image: nginx:alpine #容器名
+    image: nginx:alpine #镜像名
     ports: #端口映射
       - "8080:80"
     volumes: #挂载目录
